@@ -1,0 +1,47 @@
+li a {
+    color: green;
+}
+ul {
+    position:relative;
+    padding-left: 47%;
+}
+
+body {
+    background: white url('images/fondo.png') no-repeat;
+}
+
+h2 {
+    text-align: center;
+}
+
+#tarjeton{
+    text-align: center;
+    position: relative;
+}
+
+#results{
+    position: relative;
+}
+
+#voteAgain{
+    padding-left: 47%;
+}
+
+#voteButton {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+#voteButton:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+}
